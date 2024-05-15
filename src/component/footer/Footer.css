@@ -1,0 +1,15 @@
+ul li {
+     list-style: none;
+}
+
+
+.rocket_section {
+     margin-top: 100px;
+     padding: 50px 0px 0px 0px
+}
+
+.roket_wraper {
+     position: absolute;
+     top: -50px;
+
+}    
