@@ -1,0 +1,192 @@
+.about-sec-bg {
+    background-image: url(https://img.pikbest.com/back_our/bg/20191116/bg/6a8223043cb3c.png!w700wp);
+    /* background-image: url(https://dtdigibit.wpengine.com/wp-content/themes/digibit/images/breadcrumb-bgimage.jpg); */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 350px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.about-sec1coltext {
+    display: flex;
+    align-items: center;
+}
+
+.about-sec1coltext h5 {
+    font-weight: 600;
+    padding-left: 12px;
+    color: gray;
+    border-left: 3px solid orangered;
+    margin-bottom: 20px;
+}
+
+.about-sec1coltext h2 {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.about-sec1coltext p {
+    line-height: 33px;
+}
+
+@keyframes previewShapeX {
+    0% {
+        transform: translateX(0);
+    }
+
+    50% {
+        transform: translateX(55px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.leftright-animation {
+    animation: previewShapeX 4s linear infinite;
+}
+
+.about-sec2 {
+    background-image: url(https://manybackgrounds.com/images/hd/stock-market-line-chart-tcl4cehaa9xhfrqi.jpg);
+    padding: 90px 15px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    position: relative;
+    /* Ensure the pseudo-element is positioned relative to this element */
+}
+
+.about-sec2::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    /* Light gray color */
+    opacity: 0.6;
+    /* Adjust the opacity to make the overlay semi-transparent */
+    z-index: 1;
+    /* Ensure it is above the background image but below other content */
+}
+
+.about-sec2 * {
+    position: relative;
+    /* Ensure all other content inside is above the overlay */
+    z-index: 2;
+}
+
+.about-sec2coltext h1 {
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.about-sec2coltext p {
+    opacity: 0.7;
+    margin-bottom: 30px;
+}
+
+.about-sec2coltext ul li {
+    opacity: 0.9;
+    line-height: 40px;
+    list-style: none;
+}
+
+.about-sec2coltext ul {
+    padding: 0px;
+}
+
+.about-sec2coltext ul svg {
+    font-size: 20px;
+    margin-right: 15px;
+    color: skyblue;
+}
+
+.about-sec2coltext button {
+    background: transparent;
+    border-radius: 22px;
+    color: white;
+    padding: 10px 25px;
+    border: 2px solid skyblue;
+    margin-top: 20px;
+}
+
+
+.about-sec-3 {
+    background-color: rgba(135, 207, 235, 0.144);
+    /* background-color: #f8f8f8; */
+    text-align: center;
+    padding: 80px 100px;
+}
+
+.about-sec-3-row img {
+    height: 55px;
+}
+
+.about-sec-3-hed {
+    display: flex;
+    justify-content: center;
+}
+
+.about-sec-3-hed h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.about-sec-3-hed p {
+    margin-bottom: 30px;
+    color: #3c3c3c;
+}
+
+.about-sec-3-imgLogo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.about-sec-3-col {
+    margin: 30px 0px;
+}
+
+.about-sec-3-col h1 {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.about-sec-3-col p {
+    color: #3c3c3c;
+}
+
+.about-sec-4{
+    padding: 80px 10px;
+}
+.about-sec-4 img{
+    background-color: skyblue;
+    border-radius: 3px 25px 3px 25px;
+
+}
+.about-sec-4coltext{
+    padding-top: 30px;
+}
+.about-sec-4coltext h1{
+    font-weight: bold;
+    margin-bottom: 25px;
+    border-left: 3px solid orangered;
+    padding-left: 10px;
+}
+.about-sec-4coltext ul li{
+    margin-bottom: 28px;
+    font-size: 17px;
+}
+.about-sec-4row2{
+    margin-top: 50px;
+}
