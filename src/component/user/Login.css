@@ -1,0 +1,85 @@
+
+.login-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.login-form{
+    height: 430px;
+    width: 350px;
+    padding: 23px;
+    text-align: center;
+    box-shadow: 5px 5px 5px 5px rgba(177, 168, 168, 0.623);
+}
+.login-form h5{
+    margin-top: 30px;
+    color: skyblue;
+    font-weight: bold;
+}
+.login-form p{
+    color: rgba(0, 0, 0, 0.61);
+    font-size: 13px;
+}
+.login-form input{
+    margin-top: 30px;
+}
+.login-form-checkbox{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.login-form-checkbox input{
+    margin-top: 4px;
+    font-size: 20px;
+}
+.login-form-checkbox span{
+    margin-left: 6px;
+    font-size: 14px;
+}
+.login-form-checkbox a{
+    text-decoration: none;
+    font-size: 14px;
+}
+.signin-btn button{
+    margin-top: 40px;
+    width: 110px;
+    border-radius: 20px;
+    padding: 6px;
+    background: skyblue ;
+    border: none;
+    color: white;
+    font-weight: 600;
+}
+.signin-btn button:hover{
+    background-color: rgba(250, 235, 215, 0.959);
+    color: skyblue;
+    /* border: 1px solid #daa106; */
+}
+
+.create-account{
+    margin-top: 10px;
+}
+
+
+
+/* media querry for screens that are 576px or less */
+@media screen and (max-width: 576px) {
+    .login-form{
+        height: 430px;
+        width: 280px;
+    }
+    .login-form-checkbox{
+        margin-top: 20px;
+        display: flex;
+        /* justify-content: space-around; */
+    }
+    .login-form-checkbox span{
+        font-size: 13px;
+    }
+    .login-form-checkbox a{
+        font-size: 13px;
+    }    
+    
+}
