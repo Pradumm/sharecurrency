@@ -1,0 +1,29 @@
+.bg_mainNav{
+    background: skyblue;
+    padding: 17px 0px;
+    color: black;
+}
+.bg_mainNav a{
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'circular';
+    margin: 0px 12px;
+}
+.bg_mainNav img{
+    margin-right: 55px;
+}
+
+
+
+
+
+/* responsive */
+@media screen and (max-width: 768px) {
+    .bg_mainNav a{
+        margin: unset;
+    }
+    .bg_mainNav img{
+        margin-right: unset;
+    }
+  }

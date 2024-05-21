@@ -1,0 +1,50 @@
+.create-account-container{
+    height: 550px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    box-shadow: 5px 5px 5px 5px rgba(177, 168, 168, 0.623);
+}
+.create-account-row-1 h5{
+    margin-top: 60px;
+    text-align: center;
+    color: skyblue;
+    font-size: 20px;
+    font-weight: bold;
+}
+.create-account-row-2{
+    justify-content: center;
+}
+
+.main-content{
+    display: contents;
+}
+
+.main-content input{
+    margin-top: 25px;
+    height: 45px;
+    font-size: 12px;
+    padding-left: 20px;
+}
+
+.create-btn button{
+    width: 100%;
+    margin-top: 50px;
+    height: 40px;
+    background: skyblue;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    border: 1px solid greenyellow;
+    border-radius: 9px;
+}
+.create-btn button:hover{
+    background: rgba(218, 165, 32, 0);
+    color: skyblue;
+}
+.login-account{
+    color: rgba(0, 0, 0, 0.61);
+    font-size: 13px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
