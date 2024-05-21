@@ -54,7 +54,7 @@ function Features() {
             </section>
             <section className="sec-2">
                 <h1>Awesome Style</h1>
-                <p>Est At Euismod Ponderum Reformidans. Vivendo Imperdiet Usu Eu, Cum Ea Fabellas Adipisci, Suas Agam Ad Mei. Quo Mollis Euripidis Gloriatur.</p>
+                <p>Est At Euismod Ponderum Reformidans. Vivendo Imperdiet Usu Eu, Cum Ea Fabellas Adipisci, Suas Agam Ad Mei. Quo Mollis Euripidis Gloriatur Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus repudiandae rerum, quis itaque, vel quas, repellendus fuga cum et nostrum consequatur? Quasi illum quos odio veniam vitae non similique quis?.</p>
                 <div className="sec-2borderbtm">
                     <p></p>
                 </div>
