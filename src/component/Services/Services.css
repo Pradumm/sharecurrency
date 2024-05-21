@@ -1,0 +1,133 @@
+.servicesec-1 {
+    padding: 30px 20px;
+    background-color: skyblue;
+}
+
+.servicesec-1 {
+    background-color: skyblue;
+    margin-top: 200px;
+}
+
+.servichedd {
+    text-align: center;
+}
+
+.servichedd h1 {
+    text-align: center;
+    margin-top: 70px;
+    font-weight: bold;
+    color: cadetblue;
+}
+
+.servicesecBoxdown {
+    background: white;
+    margin-top: -90px;
+    border-radius: 6px;
+    padding: 30px 20px;
+    box-shadow: 5px 15px 20px #3a8d76;
+}
+
+.servicesecBoxup {
+    background: white;
+    margin-top: -140px;
+    border-radius: 6px;
+    padding: 30px 20px;
+    box-shadow: 5px 15px 20px #3a8d76;
+}
+
+.servicesecicons {
+    text-align: center;
+}
+
+.servicesecicons svg {
+    background: skyblue;
+    font-size: 45px;
+    border-radius: 23px;
+    padding: 10px;
+}
+.servicesec-2{
+    background: #80808014;
+    padding: 100px 0px;
+}
+
+.serviceseccol {
+    text-align: center;
+}
+
+.servicesec-2coltxt {
+    margin-top: 50px;
+}
+
+.servicesec-2coltxt a {
+    background: skyblue;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.servicesec-3{
+    background: rgba(135, 207, 235, 0.288);
+    padding: 100px 0px;
+}
+
+.serviceseccol {
+    text-align: center;
+}
+
+.servicesec-3coltxt {
+    margin-top: 50px;
+}
+
+.servicesec-3coltxt a {
+    background: skyblue;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+@keyframes previewShapeX {
+    0% {
+        transform: translateX(0);
+    }
+
+    50% {
+        transform: translateX(55px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+.leftright-animation {
+    animation: previewShapeX 4s linear infinite;
+}
+@keyframes lefttannimat {
+    0% {
+        transform: translateX(20);
+    }
+
+    50% {
+        transform: translateX(20px);
+    }
+
+    100% {
+        transform: translateX(20);
+    }
+}
+.righleft-animation {
+    animation: lefttannimat 4s linear infinite;
+}
+
+.servicesec-4{
+    padding: 70px 10px;   
+}
+.servicesec-4box{
+    box-shadow: 9px 2px 27px #d7dfdd;
+    padding: 30px 20px;
+    margin-bottom: 30px;
+}
+.servicesec-4box:hover{
+    background-color: #3a8d76;
+    color: white;
+}

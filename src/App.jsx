@@ -11,6 +11,7 @@ import FeaturesPage from './component/features/FeaturesPage';
 import ContactUs from './component/user/ContactUs';
 import Login from './component/user/Login';
 import Register from './component/user/Register';
+import Services from './component/Services/Services';
 
 function App() {
 
@@ -26,6 +27,7 @@ function App() {
             <Route path="/blog" element={<Blog />} />
             <Route path="/news" element={<News />} />
             <Route path="/featuresPage" element={<FeaturesPage />}></Route>
+            <Route path="/services" element={<Services />}></Route>
             <Route path='/login' element={<Login />}></Route>
             <Route path='/register' element={<Register />}></Route>
             <Route path='/contactus' element={<ContactUs />}></Route>
